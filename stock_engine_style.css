@@ -1,0 +1,38 @@
+.stock_table th, .stock_table td {vertical-align:middle;} /* some css 'reset' files incorrectly set this to something else */
+table.dataTable.stock_table thead th,table.dataTable.stock_table thead td {padding: 1em 10px 1em 0px;} /* fix default padding */
+.dataTables_scrollHead .dataTables_scrollHeadInner table {height:auto;} /* fix for scroll layout with header disabled : 'ghost' header still appeared and took up space*/
+.dataTables_scrollBody {overflow-x:hidden !important;overflow-y:auto !important;} /* fix for scroll layout with small widths : removes erroneous x-axis scrollbar*/
+.left-align {text-align:left;}
+
+.stock_engine_element {text-align: center;}
+.stock_engine_element.left-align {text-align: left; padding-left:1em;}
+
+.stock_engine_element a{text-decoration: none;} /*styled links inside the table look weird*/
+table.dataTable tbody th,table.dataTable tbody td {line-height:1em;} /*min height of cells = font size : look mom no overlap! */
+
+/* auto text color */
+.stock_table tr.text_se_red_big   td.change{color: #330000;}
+.stock_table tr.text_se_red_med   td.change{color: #550000;}
+.stock_table tr.text_se_red_sml   td.change{color: #770000;}
+.stock_table tr.text_se_green_big td.change{color: #003300;}
+.stock_table tr.text_se_green_med td.change{color: #005500;}
+.stock_table tr.text_se_green_sml td.change{color: #007700;}
+.stock_table tr.text_se_gray      td.change{color: #222222;}
+
+/* auto bg color */
+.stock_table tr.stock_engine_row.bg_se_red_big,  .dataTables_wrapper table.dataTable.hover tbody tr.stock_engine_row.bg_se_red_big:hover  {background-color: #FF8888;}    
+.stock_table tr.stock_engine_row.bg_se_red_med,  .dataTables_wrapper table.dataTable.hover tbody tr.stock_engine_row.bg_se_red_med:hover  {background-color: #FFAAAA;}    
+.stock_table tr.stock_engine_row.bg_se_red_sml,  .dataTables_wrapper table.dataTable.hover tbody tr.stock_engine_row.bg_se_red_sml:hover  {background-color: #DDAAAA;}
+.stock_table tr.stock_engine_row.bg_se_green_big,.dataTables_wrapper table.dataTable.hover tbody tr.stock_engine_row.bg_se_green_big:hover{background-color: #22AA22;}
+.stock_table tr.stock_engine_row.bg_se_green_med,.dataTables_wrapper table.dataTable.hover tbody tr.stock_engine_row.bg_se_green_med:hover{background-color: #44BB44;}
+.stock_table tr.stock_engine_row.bg_se_green_sml,.dataTables_wrapper table.dataTable.hover tbody tr.stock_engine_row.bg_se_green_sml:hover{background-color: #77CC77;}
+.stock_table tr.stock_engine_row.bg_se_gray,     .dataTables_wrapper table.dataTable.hover tbody tr.stock_engine_row.bg_se_gray:hover     {background-color: #AAAAAA;}
+
+.stock_table .se_hidden { display: none;}
+
+table.dataTable.hover tbody tr:hover,table.dataTable.display tbody tr:hover,
+table.dataTable.hover tbody tr.odd:hover,table.dataTable.display tbody tr.odd:hover,
+table.dataTable.hover tbody tr.even:hover,table.dataTable.display tbody tr.even:hover {
+    filter: contrast(80%);
+    -webkit-filter: contrast(80%);
+}

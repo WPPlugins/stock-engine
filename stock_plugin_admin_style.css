@@ -1,0 +1,283 @@
+/* -------- General -------- */
+
+#sp-options-page {
+    width: 850px;
+}
+
+#sp-options-page h1 {
+    display: inline-block;
+}
+
+.sp-warning {
+    color: red;
+}
+
+.sp-notice {
+    color: #ffba00;
+}
+
+#sp-options-page #referrers {
+    margin-bottom: 0px;
+}
+
+#sp-preview {
+    display:block; 
+    clear:both; 
+    min-width:818px; 
+    margin-top:20px;
+}
+
+#sp-form-div {
+    width: 50%; 
+    margin-right: 10px; 
+    clear:left;
+}
+
+#sp-options-page .color_q {
+    text-decoration: none;
+}
+
+#sp-options-page input.itxt {
+    font-size: 14px;
+    text-align: center;
+    width: 100px;
+}
+
+#sp-options-page input.shortcode_name {
+    font-size: 1em;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sp-options input, .sp-options textarea {
+    text-align:left;
+    margin: 4px;
+    padding:6px 10px;
+}
+
+.sp-options textarea {
+    max-width: 98%;
+}
+
+.sp-options label {
+    margin-right:2px;
+    white-space: nowrap;
+}
+
+.section-options-display {
+    margin-top: 2px;
+    padding-top: 5px;
+    border-top: 1px solid #ccccff;
+}
+.sp-options-subsection {
+    border: 1px solid #ccccff;
+    padding: 1px 0px 1px 2px;
+    background-color: #fefefe;
+    margin: 0 0 10px;
+    font-size: 0.95em;
+}
+.sp-options-subsection h4 {
+    margin: 0;
+    padding-bottom: 0px;
+    display:inline-block;
+}
+
+.sp-options table {
+    width:100%;
+}
+
+.sp-options-subsection .section-options-display{
+    margin-bottom:1px;
+} 
+
+.sp-options-subsection td:first-child {
+    text-align: center;
+    width: 100px;
+    padding-right:10px;
+}
+
+.sp-options-subsection table {
+    border-collapse: collapse;
+}
+
+.sp-options-subsection tr td {
+    padding: 4px;
+}
+
+ a.submitdelete {
+    color:#a00;
+    text-decoration:none;
+    padding:5px;
+    float:right;
+}
+
+ #publishing-actions {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+}
+
+.border-top {
+    border-top: 1px solid #DDDDDD;
+}
+
+.clearfix:after {
+    content: '';
+    display:table;
+    clear:both;
+    height:0;
+}
+
+textarea#input_shortcode_stocks{
+    max-width:100%;
+    white-space:nowrap;
+}
+
+input.color_input{
+    padding: 2px;
+}
+
+#sp-preview .postbox{
+    padding-left: 1em;
+
+}
+
+/* -------- List Table -------- */
+
+#sp-list-table-page input.shortcode {
+    width: 400px;
+    text-align: center;
+}
+
+#sp-list-table-page input.stocklist {
+    width: 100%;
+}
+
+#sp-list-table-page .relevad-plugins_page_stock_engine_list {
+    min-width: 1080px;
+}
+#sp-list-table-page .column-name {
+    width:200px;
+}
+
+#sp-list-table-page .column-height, #sp-list-table-page .column-width {
+    width:80px;
+}
+
+#sp-list-table-page .column-display_number {
+    width:50px;
+}
+
+#sp-list-table-page .column-shortcode {
+    width:400px;
+}
+
+/* -------- Layout -------- */
+
+label[for=shortcode-hide] {
+    display:none;
+}
+
+#layout_radio_buttons{
+    width:100%;
+}
+
+#layout_radio_buttons td{
+    text-align:center;
+    width:25%;
+    padding-bottom: 0px;
+}  
+
+#layout_radio_buttons td img {
+    margin-bottom: -6px;
+}
+
+
+/* -------- Sortable -------- */
+
+.sortable-data-items-container{
+    margin: 5px 5px 15px 5px;
+    width: 185px;
+    background: #FAFAFA;
+    float:left;
+    border: 1px solid #DDDDDD;
+    border-radius:3px;
+    min-height: 250px;
+}
+
+.sortable-data-items-container .nt-header{
+    padding: 10px 0 5px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.sortable-data-item{
+    margin: 5px;
+    padding: 0.5em 0 0.5em 25px;
+    background: url(images/arrow_move.png) no-repeat 5px #FAFFFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 1px;
+    cursor:move;
+}
+
+#sortable-data-inactive .sortable-data-item{
+    opacity: 0.5;
+    background-color: #EEE;
+}
+
+/* -------- Default Sort -------- */
+
+#default-sort {
+    width: 155px;
+}
+
+#default-sort-dir{
+    width: 70px;
+}
+.option-default-sort {
+    padding: 10px;
+}
+.option-default-sort select {
+    margin: 2px;
+}
+.option-default-sort span {
+    margin-right: 8px;
+}
+
+/* -------- Disabled Stuff -------- */
+
+#sp-options-page input:disabled {
+    opacity:0.2;
+}
+#sp-options-page label.label_disabled {
+    opacity:0.2;
+}
+.placeholder {
+    color:#CCCCCC;
+}
+
+
+/* -------- Per Category Stock Lists--------  */
+
+#sp-cat-stocks-div {
+    width: 45%; 
+    clear: right;
+}
+
+#sp-cat-stocks-div input {
+    font-size: 14px;
+    text-align: left;
+}
+
+.sp-options-subsection .section_toggle, #sp-cat-stocks-div .section_toggle{
+    cursor:pointer;
+    text-align: center;
+    margin: 0px 0px 0px 3px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    border:1px solid black;
+    padding:0;
+    display: inline-block;
+}
